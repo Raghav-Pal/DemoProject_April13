@@ -1,0 +1,36 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+TestSuite1,Chrome 73.0.3683.103,,2019-04-12 16:17:16,2019-04-12 16:17:38,22.686s,FAILED
+,,,,,,
+Test Cases/Test1,Chrome 73.0.3683.103,,2019-04-12 16:17:16,2019-04-12 16:17:24,7.977s,PASSED
+"openBrowser("""")",Chrome 73.0.3683.103,,2019-04-12 16:17:16,2019-04-12 16:17:20,3.321s,PASSED
+"navigateToUrl(""https://opensource-demo.orangehrmlive.com/"")",Chrome 73.0.3683.103,,2019-04-12 16:17:20,2019-04-12 16:17:20,0.513s,PASSED
+"click(findTestObject(""Object Repository/Page_OrangeHRM/span_Username""))",Chrome 73.0.3683.103,,2019-04-12 16:17:20,2019-04-12 16:17:20,0.186s,PASSED
+"setText(findTestObject(""Object Repository/Page_OrangeHRM/input_LOGIN Panel_txtUsername""), ""Admin"")",Chrome 73.0.3683.103,,2019-04-12 16:17:20,2019-04-12 16:17:20,0.201s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_OrangeHRM/input_Username_txtPassword""), ""hUKwJTbofgPU9eVlw/CnDQ=="")",Chrome 73.0.3683.103,,2019-04-12 16:17:20,2019-04-12 16:17:21,0.160s,PASSED
+"click(findTestObject(""Object Repository/Page_OrangeHRM/input_Password_Submit""))",Chrome 73.0.3683.103,,2019-04-12 16:17:21,2019-04-12 16:17:21,0.756s,PASSED
+"click(findTestObject(""Object Repository/Page_OrangeHRM/b_Admin""))",Chrome 73.0.3683.103,,2019-04-12 16:17:21,2019-04-12 16:17:22,0.716s,PASSED
+"click(findTestObject(""Object Repository/Page_OrangeHRM/b_Leave""))",Chrome 73.0.3683.103,,2019-04-12 16:17:22,2019-04-12 16:17:23,0.520s,PASSED
+"click(findTestObject(""Object Repository/Page_OrangeHRM/b_Recruitment""))",Chrome 73.0.3683.103,,2019-04-12 16:17:23,2019-04-12 16:17:23,0.450s,PASSED
+closeBrowser(),Chrome 73.0.3683.103,,2019-04-12 16:17:23,2019-04-12 16:17:24,0.757s,PASSED
+,,,,,,
+Test Cases/Test4,Chrome 73.0.3683.103,,2019-04-12 16:17:24,2019-04-12 16:17:32,8.387s,FAILED
+"openBrowser("""")",Chrome 73.0.3683.103,,2019-04-12 16:17:24,2019-04-12 16:17:26,2.283s,PASSED
+"navigateToUrl(""https://www.google.com/"")",Chrome 73.0.3683.103,,2019-04-12 16:17:26,2019-04-12 16:17:27,0.658s,PASSED
+"setText(findTestObject(""Object Repository/Page_Google/input_Sign in_q""), ""hexaware"")",Chrome 73.0.3683.103,,2019-04-12 16:17:27,2019-04-12 16:17:27,0.182s,PASSED
+delay(3),Chrome 73.0.3683.103,,2019-04-12 16:17:27,2019-04-12 16:17:30,3.021s,PASSED
+"sendKeys(findTestObject(""Object Repository/Page_Google/input_Sign in_q""), Keys.chord(ESCAPE))",Chrome 73.0.3683.103,,2019-04-12 16:17:30,2019-04-12 16:17:30,0.005s,NOT_RUN
+"click(findTestObject(""GoogleTest/Page_Google/input_Remove_btnK""))",Chrome 73.0.3683.103,,2019-04-12 16:17:30,2019-04-12 16:17:32,1.199s,PASSED
+closeBrowser(),Chrome 73.0.3683.103,,2019-04-12 16:17:32,2019-04-12 16:17:32,0.653s,PASSED
+acceptAlert(),Chrome 73.0.3683.103,,2019-04-12 16:17:32,2019-04-12 16:17:32,0.041s,FAILED
+,,,,,,
+Test Cases/Test5,Chrome 73.0.3683.103,,2019-04-12 16:17:32,2019-04-12 16:17:38,6.053s,PASSED
+"openBrowser("""")",Chrome 73.0.3683.103,,2019-04-12 16:17:32,2019-04-12 16:17:35,2.271s,PASSED
+"navigateToUrl(""https://opensource-demo.orangehrmlive.com/"")",Chrome 73.0.3683.103,,2019-04-12 16:17:35,2019-04-12 16:17:36,1.143s,PASSED
+"click(findTestObject(""Object Repository/Page_OrangeHRM/span_Username""))",Chrome 73.0.3683.103,,2019-04-12 16:17:36,2019-04-12 16:17:36,0.095s,PASSED
+"setText(findTestObject(""Object Repository/Page_OrangeHRM/input_LOGIN Panel_txtUsername""), ""Admin"")",Chrome 73.0.3683.103,,2019-04-12 16:17:36,2019-04-12 16:17:36,0.106s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_OrangeHRM/input_Username_txtPassword""), ""hUKwJTbofgPU9eVlw/CnDQ=="")",Chrome 73.0.3683.103,,2019-04-12 16:17:36,2019-04-12 16:17:36,0.140s,PASSED
+"click(findTestObject(""Object Repository/Page_OrangeHRM/input_Password_Submit""))",Chrome 73.0.3683.103,,2019-04-12 16:17:36,2019-04-12 16:17:37,0.810s,PASSED
+"click(findTestObject(""Object Repository/Page_OrangeHRM/a_Welcome Admin""))",Chrome 73.0.3683.103,,2019-04-12 16:17:37,2019-04-12 16:17:37,0.094s,PASSED
+"waitForElementPresent(findTestObject(""Page_OrangeHRM/a_Logout""), 5)",Chrome 73.0.3683.103,,2019-04-12 16:17:37,2019-04-12 16:17:37,0.239s,PASSED
+"click(findTestObject(""Object Repository/Page_OrangeHRM/a_Logout""))",Chrome 73.0.3683.103,,2019-04-12 16:17:37,2019-04-12 16:17:38,0.301s,PASSED
+closeBrowser(),Chrome 73.0.3683.103,,2019-04-12 16:17:38,2019-04-12 16:17:38,0.643s,PASSED

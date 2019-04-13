@@ -1,0 +1,9 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+SampleTestSuite,,,2019-04-13 14:43:33,2019-04-13 14:43:34,0.929s,PASSED
+,,,,,,
+Test Cases/April13/SampleTest,,,2019-04-13 14:43:34,2019-04-13 14:43:34,0.393s,PASSED
+Start listener action : sampleBeforeTestCase,,,2019-04-13 14:43:34,2019-04-13 14:43:34,0.011s,PASSED
+Start setup action : setupTestCase,,,2019-04-13 14:43:34,2019-04-13 14:43:34,0.015s,PASSED
+"println(""I am inside SampleTest"")",,,2019-04-13 14:43:34,2019-04-13 14:43:34,0.002s,PASSED
+Start tear down : tearDownTestCase,,,2019-04-13 14:43:34,2019-04-13 14:43:34,0.006s,PASSED
+Start listener action : sampleAfterTestCase,,,2019-04-13 14:43:34,2019-04-13 14:43:34,0.002s,PASSED

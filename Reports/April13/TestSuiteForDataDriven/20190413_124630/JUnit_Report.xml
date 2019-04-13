@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TestSuiteForDataDriven" time="15" tests="3" failures="0" errors="0">
+   <testsuite name="TestSuiteForDataDriven" tests="3" failures="0" errors="0" time="15" timestamp="2019-04-13 12:46:34" hostname="Administrator - ip-172-20-128-1.ec2.internal" id="Test Suites/April13/TestSuiteForDataDriven">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="D:\\Desktop\\Projects\\KatalonStudio\\DemoProject_12April\\Reports\\April13\\TestSuiteForDataDriven\\20190413_124630"/>
+         <property name="logFiles" value="D:\\Desktop\\Projects\\KatalonStudio\\DemoProject_12April\\Reports\\April13\\TestSuiteForDataDriven\\20190413_124630\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Administrator - ip-172-20-128-1.ec2.internal"/>
+         <property name="os" value="Windows Server 2016 64bit"/>
+         <property name="katalonVersion" value="6.1.1.1"/>
+         <property name="browser" value="Chrome 73.0.3683.103"/>
+         <property name="hostAddress" value="172.20.128.1"/>
+         <property name="sessionId" value="0b64184a1494e3fd8c6b7f5766c23c29"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows Server 2016"/>
+      </properties>
+      <testcase name="Test Cases/April13/DataDrivenTest1" classname="Test Cases/April13/DataDrivenTest1" status="PASSED">
+         <system-out><![CDATA[2019-04-13 12:46:34 - [TEST_CASE][PASSED] - Test Cases/April13/DataDrivenTest1: Test Cases/April13/DataDrivenTest1
+
+2019-04-13 12:46:34 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-04-13 12:46:34 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-04-13 12:46:34 - [MESSAGE][INFO] - Action delay is set to 0 seconds
+
+2019-04-13 12:46:38 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-04-13 12:46:38 - [TEST_STEP][PASSED] - navigateToUrl("https://opensource-demo.orangehrmlive.com/"): Navigate to 'https://opensource-demo.orangehrmlive.com/' successfully
+
+2019-04-13 12:46:38 - [MESSAGE][PASSED] - Navigate to 'https://opensource-demo.orangehrmlive.com/' successfully
+
+2019-04-13 12:46:38 - [TEST_STEP][PASSED] - click(findTestObject("Page_OrangeHRM/span_Username")): Object: 'Object Repository/Page_OrangeHRM/span_Username' is clicked on
+
+2019-04-13 12:46:39 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_OrangeHRM/span_Username' is clicked on
+
+2019-04-13 12:46:39 - [TEST_STEP][PASSED] - setText(findTestObject("Page_OrangeHRM/input_LOGIN Panel_txtUsername"), username): Text 'Admin' is set on object 'Object Repository/Page_OrangeHRM/input_LOGIN Panel_txtUsername'
+
+2019-04-13 12:46:39 - [MESSAGE][PASSED] - Text 'Admin' is set on object 'Object Repository/Page_OrangeHRM/input_LOGIN Panel_txtUsername'
+
+2019-04-13 12:46:39 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Page_OrangeHRM/input_Username_txtPassword"), password): Text ****** has been set on object 'Object Repository/Page_OrangeHRM/input_Username_txtPassword'
+
+2019-04-13 12:46:39 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_OrangeHRM/input_Username_txtPassword'
+
+2019-04-13 12:46:39 - [TEST_STEP][PASSED] - click(findTestObject("Page_OrangeHRM/input_Password_Submit")): Object: 'Object Repository/Page_OrangeHRM/input_Password_Submit' is clicked on
+
+2019-04-13 12:46:40 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_OrangeHRM/input_Password_Submit' is clicked on
+
+2019-04-13 12:46:40 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2019-04-13 12:46:41 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/April13/DataDrivenTest1" classname="Test Cases/April13/DataDrivenTest1" status="PASSED">
+         <system-out><![CDATA[2019-04-13 12:46:41 - [TEST_CASE][PASSED] - Test Cases/April13/DataDrivenTest1: Test Cases/April13/DataDrivenTest1
+
+2019-04-13 12:46:41 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-04-13 12:46:41 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-04-13 12:46:43 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-04-13 12:46:43 - [TEST_STEP][PASSED] - navigateToUrl("https://opensource-demo.orangehrmlive.com/"): Navigate to 'https://opensource-demo.orangehrmlive.com/' successfully
+
+2019-04-13 12:46:44 - [MESSAGE][PASSED] - Navigate to 'https://opensource-demo.orangehrmlive.com/' successfully
+
+2019-04-13 12:46:44 - [TEST_STEP][PASSED] - click(findTestObject("Page_OrangeHRM/span_Username")): Object: 'Object Repository/Page_OrangeHRM/span_Username' is clicked on
+
+2019-04-13 12:46:44 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_OrangeHRM/span_Username' is clicked on
+
+2019-04-13 12:46:44 - [TEST_STEP][PASSED] - setText(findTestObject("Page_OrangeHRM/input_LOGIN Panel_txtUsername"), username): Text 'Admin123' is set on object 'Object Repository/Page_OrangeHRM/input_LOGIN Panel_txtUsername'
+
+2019-04-13 12:46:44 - [MESSAGE][PASSED] - Text 'Admin123' is set on object 'Object Repository/Page_OrangeHRM/input_LOGIN Panel_txtUsername'
+
+2019-04-13 12:46:44 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Page_OrangeHRM/input_Username_txtPassword"), password): Text ****** has been set on object 'Object Repository/Page_OrangeHRM/input_Username_txtPassword'
+
+2019-04-13 12:46:44 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_OrangeHRM/input_Username_txtPassword'
+
+2019-04-13 12:46:44 - [TEST_STEP][PASSED] - click(findTestObject("Page_OrangeHRM/input_Password_Submit")): Object: 'Object Repository/Page_OrangeHRM/input_Password_Submit' is clicked on
+
+2019-04-13 12:46:44 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_OrangeHRM/input_Password_Submit' is clicked on
+
+2019-04-13 12:46:44 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2019-04-13 12:46:45 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/April13/DataDrivenTest1" classname="Test Cases/April13/DataDrivenTest1" status="PASSED">
+         <system-out><![CDATA[2019-04-13 12:46:45 - [TEST_CASE][PASSED] - Test Cases/April13/DataDrivenTest1: Test Cases/April13/DataDrivenTest1
+
+2019-04-13 12:46:45 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-04-13 12:46:45 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-04-13 12:46:47 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-04-13 12:46:47 - [TEST_STEP][PASSED] - navigateToUrl("https://opensource-demo.orangehrmlive.com/"): Navigate to 'https://opensource-demo.orangehrmlive.com/' successfully
+
+2019-04-13 12:46:48 - [MESSAGE][PASSED] - Navigate to 'https://opensource-demo.orangehrmlive.com/' successfully
+
+2019-04-13 12:46:48 - [TEST_STEP][PASSED] - click(findTestObject("Page_OrangeHRM/span_Username")): Object: 'Object Repository/Page_OrangeHRM/span_Username' is clicked on
+
+2019-04-13 12:46:48 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_OrangeHRM/span_Username' is clicked on
+
+2019-04-13 12:46:48 - [TEST_STEP][PASSED] - setText(findTestObject("Page_OrangeHRM/input_LOGIN Panel_txtUsername"), username): Text 'Admin345' is set on object 'Object Repository/Page_OrangeHRM/input_LOGIN Panel_txtUsername'
+
+2019-04-13 12:46:48 - [MESSAGE][PASSED] - Text 'Admin345' is set on object 'Object Repository/Page_OrangeHRM/input_LOGIN Panel_txtUsername'
+
+2019-04-13 12:46:48 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Page_OrangeHRM/input_Username_txtPassword"), password): Text ****** has been set on object 'Object Repository/Page_OrangeHRM/input_Username_txtPassword'
+
+2019-04-13 12:46:48 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_OrangeHRM/input_Username_txtPassword'
+
+2019-04-13 12:46:48 - [TEST_STEP][PASSED] - click(findTestObject("Page_OrangeHRM/input_Password_Submit")): Object: 'Object Repository/Page_OrangeHRM/input_Password_Submit' is clicked on
+
+2019-04-13 12:46:48 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_OrangeHRM/input_Password_Submit' is clicked on
+
+2019-04-13 12:46:48 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2019-04-13 12:46:49 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2019-04-13 12:46:34 - [TEST_SUITE][PASSED] - TestSuiteForDataDriven: Test Cases/April13/DataDrivenTest1]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

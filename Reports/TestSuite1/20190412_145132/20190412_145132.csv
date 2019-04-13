@@ -1,0 +1,25 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+TestSuite1,Firefox 65.0,,2019-04-12 14:51:37,2019-04-12 14:52:25,47.991s,FAILED
+,,,,,,
+Test Cases/Test1,Firefox 65.0,,2019-04-12 14:51:38,2019-04-12 14:52:14,36.577s,PASSED
+"openBrowser("""")",Firefox 65.0,,2019-04-12 14:51:39,2019-04-12 14:51:57,17.661s,PASSED
+"navigateToUrl(""https://opensource-demo.orangehrmlive.com/"")",Firefox 65.0,,2019-04-12 14:51:57,2019-04-12 14:51:59,2.071s,PASSED
+"click(findTestObject(""Object Repository/Page_OrangeHRM/span_Username""))",Firefox 65.0,,2019-04-12 14:51:59,2019-04-12 14:52:00,0.648s,PASSED
+"setText(findTestObject(""Object Repository/Page_OrangeHRM/input_LOGIN Panel_txtUsername""), ""Admin"")",Firefox 65.0,,2019-04-12 14:52:00,2019-04-12 14:52:00,0.156s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_OrangeHRM/input_Username_txtPassword""), ""hUKwJTbofgPU9eVlw/CnDQ=="")",Firefox 65.0,,2019-04-12 14:52:00,2019-04-12 14:52:00,0.316s,PASSED
+"click(findTestObject(""Object Repository/Page_OrangeHRM/input_Password_Submit""))",Firefox 65.0,,2019-04-12 14:52:00,2019-04-12 14:52:02,1.483s,PASSED
+"click(findTestObject(""Object Repository/Page_OrangeHRM/b_Admin""))",Firefox 65.0,,2019-04-12 14:52:02,2019-04-12 14:52:02,0.909s,PASSED
+"click(findTestObject(""Object Repository/Page_OrangeHRM/b_Leave""))",Firefox 65.0,,2019-04-12 14:52:02,2019-04-12 14:52:05,2.496s,PASSED
+"click(findTestObject(""Object Repository/Page_OrangeHRM/b_Recruitment""))",Firefox 65.0,,2019-04-12 14:52:05,2019-04-12 14:52:06,1.074s,PASSED
+closeBrowser(),Firefox 65.0,,2019-04-12 14:52:06,2019-04-12 14:52:12,6.366s,PASSED
+,,,,,,
+Test Cases/Test5,Firefox 65.0,,2019-04-12 14:52:14,2019-04-12 14:52:24,9.797s,FAILED
+"openBrowser("""")",Firefox 65.0,,2019-04-12 14:52:15,2019-04-12 14:52:19,4.376s,PASSED
+"navigateToUrl(""https://opensource-demo.orangehrmlive.com/"")",Firefox 65.0,,2019-04-12 14:52:19,2019-04-12 14:52:20,0.631s,PASSED
+"click(findTestObject(""Object Repository/Page_OrangeHRM/span_Username""))",Firefox 65.0,,2019-04-12 14:52:20,2019-04-12 14:52:20,0.288s,PASSED
+"setText(findTestObject(""Object Repository/Page_OrangeHRM/input_LOGIN Panel_txtUsername""), ""Admin"")",Firefox 65.0,,2019-04-12 14:52:20,2019-04-12 14:52:20,0.068s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_OrangeHRM/input_Username_txtPassword""), ""hUKwJTbofgPU9eVlw/CnDQ=="")",Firefox 65.0,,2019-04-12 14:52:20,2019-04-12 14:52:20,0.095s,PASSED
+"click(findTestObject(""Object Repository/Page_OrangeHRM/input_Password_Submit""))",Firefox 65.0,,2019-04-12 14:52:20,2019-04-12 14:52:21,0.986s,PASSED
+"click(findTestObject(""Object Repository/Page_OrangeHRM/a_Welcome Admin""))",Firefox 65.0,,2019-04-12 14:52:21,2019-04-12 14:52:22,0.760s,PASSED
+"waitForElementPresent(findTestObject(""Page_OrangeHRM/a_Logout""), 5)",Firefox 65.0,,2019-04-12 14:52:22,2019-04-12 14:52:22,0.037s,PASSED
+"click(findTestObject(""Object Repository/Page_OrangeHRM/a_Logout""))",Firefox 65.0,,2019-04-12 14:52:22,2019-04-12 14:52:22,0.262s,FAILED

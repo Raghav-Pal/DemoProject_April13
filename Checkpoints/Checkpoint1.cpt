@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<checkpoint>
+   <description></description>
+   <name>Checkpoint1</name>
+   <tag></tag>
+   <excel-source-info>
+      <is-from-test-data>false</is-from-test-data>
+      <source-url>C:\Users\Administrator\Desktop\Data\data.xlsx</source-url>
+      <source-type>ExcelFile</source-type>
+      <sheet-name-or-separator>Sheet1</sheet-name-or-separator>
+      <is-using-relative-path>false</is-using-relative-path>
+      <is-using-first-row-as-header>true</is-using-first-row-as-header>
+   </excel-source-info>
+   <taken-date>2019-04-13T11:10:49.082</taken-date>
+   <column-names>
+      <column-name>Name</column-name>
+      <column-name>Place</column-name>
+      <column-name>ID</column-name>
+      <column-name></column-name>
+   </column-names>
+   <checkpoint-data><![CDATA[[
+  [
+    {
+      "value": "John",
+      "checked": true
+    },
+    {
+      "value": "NewYork",
+      "checked": true
+    },
+    {
+      "value": "123",
+      "checked": true
+    },
+    {
+      "value": "",
+      "checked": false
+    }
+  ],
+  [
+    {
+      "value": "Peter",
+      "checked": true
+    },
+    {
+      "value": "Paris",
+      "checked": true
+    },
+    {
+      "value": "345",
+      "checked": true
+    },
+    {
+      "value": "",
+      "checked": false
+    }
+  ],
+  [
+    {
+      "value": "Kevin",
+      "checked": false
+    },
+    {
+      "value": "NewDelhi",
+      "checked": true
+    },
+    {
+      "value": "456",
+      "checked": true
+    },
+    {
+      "value": "",
+      "checked": false
+    }
+  ],
+  [
+    {
+      "value": "Sarah",
+      "checked": false
+    },
+    {
+      "value": "Boston",
+      "checked": true
+    },
+    {
+      "value": "678",
+      "checked": true
+    },
+    {
+      "value": "",
+      "checked": false
+    }
+  ],
+  [
+    {
+      "value": "",
+      "checked": false
+    },
+    {
+      "value": "",
+      "checked": false
+    },
+    {
+      "value": "",
+      "checked": false
+    },
+    {
+      "value": "",
+      "checked": false
+    }
+  ],
+  [
+    {
+      "value": "",
+      "checked": false
+    },
+    {
+      "value": "",
+      "checked": false
+    },
+    {
+      "value": "",
+      "checked": false
+    },
+    {
+      "value": "",
+      "checked": false
+    }
+  ],
+  [
+    {
+      "value": "",
+      "checked": false
+    },
+    {
+      "value": "",
+      "checked": false
+    },
+    {
+      "value": "",
+      "checked": false
+    },
+    {
+      "value": "",
+      "checked": false
+    }
+  ],
+  [
+    {
+      "value": "",
+      "checked": false
+    },
+    {
+      "value": "",
+      "checked": false
+    },
+    {
+      "value": "",
+      "checked": false
+    },
+    {
+      "value": "",
+      "checked": false
+    }
+  ],
+  [
+    {
+      "value": "",
+      "checked": false
+    },
+    {
+      "value": "",
+      "checked": false
+    },
+    {
+      "value": "",
+      "checked": false
+    },
+    {
+      "value": "",
+      "checked": false
+    }
+  ],
+  [
+    {
+      "value": "",
+      "checked": false
+    },
+    {
+      "value": "",
+      "checked": false
+    },
+    {
+      "value": "",
+      "checked": false
+    },
+    {
+      "value": "",
+      "checked": false
+    }
+  ]
+]]]></checkpoint-data>
+</checkpoint>

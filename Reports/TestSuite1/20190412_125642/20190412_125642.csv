@@ -1,0 +1,27 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+TestSuite1,Chrome 73.0.3683.103,,2019-04-12 12:56:44,2019-04-12 12:57:10,25.460s,ERROR
+,,,,,,
+Test Cases/Test1,Chrome 73.0.3683.103,,2019-04-12 12:56:44,2019-04-12 12:56:56,11.691s,PASSED
+"openBrowser("""")",Chrome 73.0.3683.103,,2019-04-12 12:56:45,2019-04-12 12:56:49,4.467s,PASSED
+"navigateToUrl(""https://opensource-demo.orangehrmlive.com/"")",Chrome 73.0.3683.103,,2019-04-12 12:56:49,2019-04-12 12:56:50,0.586s,PASSED
+"click(findTestObject(""Object Repository/Page_OrangeHRM/span_Username""))",Chrome 73.0.3683.103,,2019-04-12 12:56:50,2019-04-12 12:56:50,0.239s,PASSED
+"setText(findTestObject(""Object Repository/Page_OrangeHRM/input_LOGIN Panel_txtUsername""), ""Admin"")",Chrome 73.0.3683.103,,2019-04-12 12:56:50,2019-04-12 12:56:50,0.161s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_OrangeHRM/input_Username_txtPassword""), ""hUKwJTbofgPU9eVlw/CnDQ=="")",Chrome 73.0.3683.103,,2019-04-12 12:56:50,2019-04-12 12:56:51,0.253s,PASSED
+"click(findTestObject(""Object Repository/Page_OrangeHRM/input_Password_Submit""))",Chrome 73.0.3683.103,,2019-04-12 12:56:51,2019-04-12 12:56:51,0.797s,PASSED
+"click(findTestObject(""Object Repository/Page_OrangeHRM/b_Admin""))",Chrome 73.0.3683.103,,2019-04-12 12:56:51,2019-04-12 12:56:52,0.714s,PASSED
+"click(findTestObject(""Object Repository/Page_OrangeHRM/b_Leave""))",Chrome 73.0.3683.103,,2019-04-12 12:56:52,2019-04-12 12:56:53,0.564s,PASSED
+"click(findTestObject(""Object Repository/Page_OrangeHRM/b_Recruitment""))",Chrome 73.0.3683.103,,2019-04-12 12:56:53,2019-04-12 12:56:53,0.499s,PASSED
+closeBrowser(),Chrome 73.0.3683.103,,2019-04-12 12:56:53,2019-04-12 12:56:54,0.850s,PASSED
+,,,,,,
+Test Cases/Test3,Chrome 73.0.3683.103,,2019-04-12 12:56:56,2019-04-12 12:56:58,2.143s,ERROR
+"WebUI.openBrowser(""https://google.com"")",Chrome 73.0.3683.103,,2019-04-12 12:56:56,2019-04-12 12:56:56,0.028s,ERROR
+,,,,,,
+Test Cases/Test4,Chrome 73.0.3683.103,,2019-04-12 12:56:58,2019-04-12 12:57:10,11.214s,FAILED
+"openBrowser("""")",Chrome 73.0.3683.103,,2019-04-12 12:56:59,2019-04-12 12:57:01,2.321s,PASSED
+"navigateToUrl(""https://www.google.com/"")",Chrome 73.0.3683.103,,2019-04-12 12:57:01,2019-04-12 12:57:02,0.927s,PASSED
+"setText(findTestObject(""Object Repository/Page_Google/input_Sign in_q""), ""hexaware"")",Chrome 73.0.3683.103,,2019-04-12 12:57:02,2019-04-12 12:57:02,0.280s,PASSED
+delay(3),Chrome 73.0.3683.103,,2019-04-12 12:57:02,2019-04-12 12:57:05,3.027s,PASSED
+"sendKeys(findTestObject(""Object Repository/Page_Google/input_Sign in_q""), Keys.chord(ESCAPE))",Chrome 73.0.3683.103,,2019-04-12 12:57:05,2019-04-12 12:57:05,0.140s,PASSED
+"click(findTestObject(""GoogleTest/Page_Google/input_Remove_btnK""))",Chrome 73.0.3683.103,,2019-04-12 12:57:05,2019-04-12 12:57:07,1.477s,PASSED
+closeBrowser(),Chrome 73.0.3683.103,,2019-04-12 12:57:07,2019-04-12 12:57:07,0.694s,PASSED
+acceptAlert(),Chrome 73.0.3683.103,,2019-04-12 12:57:07,2019-04-12 12:57:08,0.078s,FAILED

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="SampleTestSuite" time="0" tests="1" failures="0" errors="0">
+   <testsuite name="SampleTestSuite" tests="1" failures="0" errors="0" time="0" timestamp="2019-04-13 14:29:32" hostname="Administrator - ip-172-20-128-1.ec2.internal" id="Test Suites/April13/SampleTestSuite">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="D:\\Desktop\\Projects\\KatalonStudio\\DemoProject_12April\\Reports\\April13\\SampleTestSuite\\20190413_142930"/>
+         <property name="logFiles" value="D:\\Desktop\\Projects\\KatalonStudio\\DemoProject_12April\\Reports\\April13\\SampleTestSuite\\20190413_142930\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Administrator - ip-172-20-128-1.ec2.internal"/>
+         <property name="hostAddress" value="172.20.128.1"/>
+         <property name="os" value="Windows Server 2016 64bit"/>
+         <property name="katalonVersion" value="6.1.1.1"/>
+      </properties>
+      <testcase name="Test Cases/April13/SampleTest" classname="Test Cases/April13/SampleTest" status="PASSED">
+         <system-out><![CDATA[2019-04-13 14:29:33 - [TEST_CASE][PASSED] - Test Cases/April13/SampleTest: Test Cases/April13/SampleTest
+
+2019-04-13 14:29:33 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: null
+
+2019-04-13 14:29:33 - [TEST_STEP][PASSED] - println("I am inside sampleBeforeTestCase"): null
+
+2019-04-13 14:29:33 - [TEST_STEP][PASSED] - println("I am inside SampleTest"): null
+
+2019-04-13 14:29:33 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: null
+
+2019-04-13 14:29:33 - [TEST_STEP][PASSED] - println("I am inside sampleAfterTestCase"): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2019-04-13 14:29:32 - [TEST_SUITE][PASSED] - SampleTestSuite: Test Cases/April13/SampleTest]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

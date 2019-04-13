@@ -1,0 +1,32 @@
+1
+00:00:00,163 --> 00:00:00,164
+1. openBrowser("")
+
+2
+00:00:02,484 --> 00:00:02,486
+5. navigateToUrl("https://www.google.com/")
+
+3
+00:00:03,407 --> 00:00:03,418
+9. setText(findTestObject("Object Repository/Page_Google/input_Sign in_q"), "hexaware")
+
+4
+00:00:03,697 --> 00:00:03,698
+13. delay(3)
+
+5
+00:00:06,725 --> 00:00:06,726
+17. sendKeys(findTestObject("Object Repository/Page_Google/input_Sign in_q"), Keys.chord(ESCAPE))
+
+6
+00:00:06,865 --> 00:00:06,869
+21. click(findTestObject("GoogleTest/Page_Google/input_Remove_btnK"))
+
+7
+00:00:08,343 --> 00:00:08,344
+25. closeBrowser()
+
+8
+00:00:09,037 --> 00:00:09,038
+29. acceptAlert()
+
